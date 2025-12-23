@@ -23,7 +23,7 @@ const Article = () => {
                                        transition-transform duration-300 ease-in-out hover:scale-105 hover:-translate-y-1'>Work With Us</button>
                   </li>
                   <li>
-                      <img className='w-[600px] transition-transform duration-300 ease-in-out hover:scale-105 hover:-translate-y-1' src={Opa} alt="" />
+                      <img className='w-[500px] transition-transform duration-300 ease-in-out hover:scale-105 hover:-translate-y-1' src={Opa} alt="" />
                   </li>
                 </ul>
             </div>
