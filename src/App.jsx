@@ -1,5 +1,5 @@
 import React from 'react'
-import './App.css'
+import './index.css'
 import Layout from './components/Layout/Layout'
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import Careers from './components/pages/Careers'

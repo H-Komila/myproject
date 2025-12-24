@@ -5,9 +5,9 @@ import Logo from './images/logo.svg'
 const Nav = () => {
   return (
     <>
-        <nav className='bg-white shadow-xl h-22 fixed left-0 right-0 z-10'>
+       <nav className='bg-white w-full  p-4  shadow-xl fixed left-0 right-0  z-10'>
             <div className='container max-w-[1200px] mx-auto px-4'>
-                <div className='nav__container mt-4 flex justify-between items-center'>
+                <div className='nav__container flex justify-between items-center'>
                     <Link to={"/"}><img className='w-40' src={Logo} alt="" /></Link>
                     <ul className='nav__list flex gap-10 items-center'>
                         <li className='nav__item relative text-gray-500 font-[500] text-[20px] transition-colors duration-300 hover:text-orange-500 
@@ -88,6 +88,8 @@ const Nav = () => {
                 </div>
             </div>
         </nav>
+
+      
     </>
   )
 }
