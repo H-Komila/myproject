@@ -32,7 +32,7 @@ const Header = () => {
               </div>
 
               
-              <div className='worked-with'>
+              <div>
                 <p className='text-[15px] font-bold text-gray-400 mb-4 uppercase tracking-wider'>Worked with 100+ Companies</p>
                 <div className='header__logos flex flex-wrap justify-center lg:justify-start gap-8 opacity-60'>
                   <Link to={"/"}><img className='w-[100px] md:w-[130px] grayscale hover:grayscale-0 transition-all duration-500 transform hover:scale-105' src={Rasm} alt="Client 1" /></Link>
@@ -45,7 +45,7 @@ const Header = () => {
           
             <div className='header__right lg:w-1/2 flex justify-center lg:justify-end object-contain transition-transform duration-500 ease-in-out hover:scale-105'>
               <div className='relative w-full max-w-[700px]'>
-                <img className=' max-w-[400px] md:max-w-[600px] lg:max-w-[700px]    transition-transform duration-500 ease-in-out hover:scale-105' src={Odam} alt="Main Illustration"/>
+                <img className=' max-w-[400px] md:max-w-[600px] lg:max-w-[700px]    transition-transform duration-500 ease-in-out hover:scale-100' src={Odam} alt="Main Illustration"/>
               </div>
             </div>
 
