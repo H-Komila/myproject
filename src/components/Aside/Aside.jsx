@@ -4,11 +4,11 @@ import Haaa from './images/haaa.png'
 
 const Aside = () => {
   return (
-    <aside className='relative mt-20'>
+    <aside className='mt-20 h-auto'>
       <div className='container max-w-[1200px] mx-auto px-4'>
         <div className='flex flex-col lg:flex-row items-center lg:justify-between gap-10'>
 
-          
+
           <div className='lg:w-1/2'>
             <h1 className='text-[36px] md:text-[48px] text-blue-950 font-[600] mb-5'>
               The energy of a start-up combined with 30 years of experience.
@@ -32,15 +32,25 @@ const Aside = () => {
             </div>
           </div>
 
-        
+
           <div className='lg:w-1/2 relative flex justify-center items-center mt-10 lg:mt-0'>
-            <div className='w-[200px] h-[630px] bg-orange-400 bg-opacity-60 rounded-bl-3xl rounded-tl-3xl absolute left-0 lg:left-auto lg:right-0 transition-all duration-500'></div>
-            <img 
-              className='max-w-[400px] md:max-w-[600px] lg:max-w-[600px] rounded-3xl transition-transform duration-500 hover:scale-105'
-              src={Opasi} 
-              alt="Opasi" 
+            <div className='hidden lg:block
+                  w-[200px] h-[630px]
+                  bg-orange-400 bg-opacity-60
+                  rounded-bl-3xl rounded-tl-3xl
+                  absolute right-0
+                  transition-all duration-500'>
+            </div>
+
+            <img
+              className='max-w-[400px] md:max-w-[600px] lg:max-w-[600px] 
+               rounded-3xl 
+               transition-transform duration-500 hover:scale-105'
+              src={Opasi}
+              alt="Opasi"
             />
           </div>
+
 
         </div>
       </div>

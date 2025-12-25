@@ -7,7 +7,7 @@ const Nav = () => {
 
   return (
     <>
-      <nav className='bg-white w-full p-4 shadow-xl fixed left-0 right-0 z-10'>
+      <nav className='bg-white w-full p-4 shadow-xl fixed left-0 right-0 z-10 overflow-x-hidden'>
         <div className='container max-w-[1200px] mx-auto px-4'>
           <div className='nav__container flex justify-between items-center'>
 

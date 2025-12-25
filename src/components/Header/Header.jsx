@@ -7,7 +7,7 @@ import Odam from './images/4.png'
 
 const Header = () => {
   return (
-    <header className='header bg-blue-100 pt-24 pb-10 flex items-center relative top-20'>
+    <header className='header bg-blue-100 pt-24 pb-10 flex  items-center relative top-20'>
       <div className='container max-w-[1200px] mx-auto px-4'>
         <div className='header__container'>
           <div className='flex flex-col lg:flex-row justify-between items-center gap-10'>
@@ -45,8 +45,7 @@ const Header = () => {
           
             <div className='header__right lg:w-1/2 flex justify-center lg:justify-end object-contain transition-transform duration-500 ease-in-out hover:scale-105'>
               <div className='relative w-full max-w-[700px]'>
-                 <div className='w-full md:w-[600px] h-[250px] md:h-[300px] rounded-tl-full rounded-tr-full bg-orange-300 relative top-[60px] md:top-[90px] right-0 md:right-[50px] transition-all duration-500 hover:scale-105'></div>
-                <img className='absolute max-w-[400px] md:max-w-[600px] lg:max-w-[700px] -top-[80px] md:-top-[90px] -left-[50px] md:-left-[100px] transition-transform duration-500 ease-in-out hover:scale-105' src={Odam} alt="Main Illustration"/>
+                <img className=' max-w-[400px] md:max-w-[600px] lg:max-w-[700px]    transition-transform duration-500 ease-in-out hover:scale-105' src={Odam} alt="Main Illustration"/>
               </div>
             </div>
 

@@ -8,10 +8,10 @@ const Footer = () => {
     <footer className='bg-blue-900 p-[50px] mt-[100px]'>
       <div className='container max-w-[1200px] mx-auto px-4'>
         <div>
-          <ul className='flex justify-between'>
+          <ul className='flex flex-col md:flex-row justify-between gap-10 md:gap-0'>
 
            
-            <li className='flex-1  '>
+            <li className='flex-1'>
               <Link to={'/'}><img className='w-36 mb-5 mx-auto md:mx-0' src={Logojon} alt="Logo" /></Link>
               <h1 className='text-[28px] md:text-[36px] text-white font-[600] mb-5 text-center md:text-left'>Bespoke software <br /> solutions</h1>
               <span className='flex justify-center md:justify-start items-center gap-5 mb-10 md:mb-40'>
@@ -24,7 +24,7 @@ const Footer = () => {
             </li>
 
            
-            <li className='flex-1 relative left-10 '>
+            <li className='flex-1 text-center md:text-left'>
               <h1 className='text-[20px] text-white font-[600] mb-4'>Company</h1>
               <Link to={'/'}><p className='text-[16px] text-white font-[500] mb-4 hover:text-orange-400 transition-colors duration-300'>About Us</p></Link>
               <Link to={'/'}><p className='text-[16px] text-white font-[500] mb-4 hover:text-orange-400 transition-colors duration-300'>Careers</p></Link>
