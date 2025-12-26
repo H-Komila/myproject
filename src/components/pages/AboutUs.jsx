@@ -6,7 +6,6 @@ import Section from '../Section/Section'
 import Wrapper from '../Wrapper/Wrapper'
 import Aside from '../Aside/Aside'
 import Main from '../Main/Main'
-import Sidebar from '../Sidebar/Sidebar'
 
 const AboutUs = () => {
   return (

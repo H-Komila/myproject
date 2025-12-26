@@ -28,7 +28,7 @@ const Sidebar = () => {
                 <img
                   src={Rasmjon}
                   alt="Business strategy"
-                  className='w-full h-[230px] mb-4 object-cover rounded-md transition-transform duration-300 hover:scale-105'
+                  className='w-full h-[230px] mb-4 object-cover rounded-md '
                 />
                 <h2 className='text-xl font-semibold mb-2'>
                   Why you have to digitalize in <br /> 2021
@@ -50,7 +50,7 @@ const Sidebar = () => {
                 <img
                   src={Rasmxon}
                   alt="Business strategy"
-                  className='w-full h-[230px] mb-4 object-cover rounded-md transition-transform duration-300 hover:scale-105'
+                  className='w-full h-[230px] mb-4 object-cover rounded-md '
                 />
                 <h2 className='text-xl font-semibold mb-2'>
                   Our internal process and longerm vision
@@ -72,7 +72,7 @@ const Sidebar = () => {
                 <img
                   src={Rasmbek}
                   alt="Business strategy"
-                  className='w-full h-[230px] mb-4 object-cover rounded-md transition-transform duration-300 hover:scale-105'
+                  className='w-full h-[230px] mb-4 object-cover rounded-md '
                 />
                 <h2 className='text-xl font-semibold mb-2'>
                   Helping the next generation of leaders
