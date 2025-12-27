@@ -29,7 +29,7 @@ const Section = () => {
               <img
                 src={Nima}
                 alt="Business strategy"
-                className='w-full h-[230px] mb-4 object-cover rounded-md transition-transform duration-300 hover:scale-105'
+                className='w-full h-[230px] mb-4 object-cover rounded-md'
               />
               <h2 className='text-xl font-semibold mb-2'>
                 Business strategy
@@ -50,7 +50,7 @@ const Section = () => {
               <img
                 src={Nim}
                 alt="Business strategy"
-                className='w-full h-[230px] mb-4 object-cover rounded-md transition-transform duration-300 hover:scale-105'
+                className='w-full h-[230px] mb-4 object-cover rounded-md'
               />
               <h2 className='text-xl font-semibold mb-2'>
                 Digitalization
@@ -71,8 +71,7 @@ const Section = () => {
               <img
                 src={Ni}
                 alt="Business strategy"
-                className='w-full h-[230px] mb-4 object-cover rounded-md transition-transform duration-300 hover:scale-105'
-              />
+                className='w-full h-[230px] mb-4 object-cover rounded-md '/>
               <h2 className='text-xl font-semibold mb-2'>
                 Risk assessment
               </h2>

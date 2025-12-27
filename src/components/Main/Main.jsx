@@ -7,7 +7,7 @@ import Salom from './images/salom.png'
 const Main = () => {
   return (
     <>
-      <main className='bg-blue-100 w-full p-5'>
+      <main className='bg-blue-100 w-full p-5 mt-[150px]'>
         <div className='container max-w-[1200px] mx-auto px-4'>
           <div className=''>
 
@@ -36,7 +36,7 @@ const Main = () => {
 
               
               <li className='flex-1 relative w-full'>
-                <div className='absolute w-[120px] md:w-[150px] h-[350px] md:h-[465px] bg-orange-500 bg-opacity-60 rounded-tl-3xl rounded-bl-3xl transition-all duration-500 hover:scale-105'></div>
+                <div className='absolute w-[120px] md:w-[150px] h-[300px] md:h-[465px] bg-orange-500 bg-opacity-60 rounded-tl-3xl rounded-bl-3xl transition-all duration-500 hover:scale-105'></div>
                 <img className='max-w-full md:max-w-[700px] rounded-3xl transition-transform duration-500 hover:scale-105' src={Gruh} alt="" />
               </li>
             </ul>

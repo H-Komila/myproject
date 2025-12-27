@@ -8,5 +8,21 @@ export default {
   theme: {
     extend: {},
   },
+  theme: {
+  extend: {
+    keyframes: {
+      fadeInRight: {
+        '0%': { opacity: 0, transform: 'translateX(50px)' },
+        '100%': { opacity: 1, transform: 'translateX(0)' },
+      },
+    },
+    animation: {
+      'fade-in-right': 'fadeInRight 0.8s ease-out forwards',
+    },
+  },
+},
+
   plugins: [],
 }
+
+
