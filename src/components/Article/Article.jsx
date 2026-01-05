@@ -24,7 +24,7 @@ const Article = () => {
           
           <li className='relative lg:w-1/2 flex justify-center items-center'>
            
-            <div className='w-[120px] md:w-[150px] h-[250px] md:h-[600px] rounded-tl-3xl rounded-bl-3xl bg-orange-400 bg-opacity-70 absolute left-0  lg:right-0 transition-transform duration-500 hover:scale-105'></div>
+            <div className='w-[100px] md:w-[180px] h-[260px] md:h-[600px] rounded-tl-3xl rounded-bl-3xl bg-orange-400 bg-opacity-70 absolute left-0  lg:right-0 transition-transform duration-500 hover:scale-105'></div>
             <img className='w-[250px] md:w-[600px] rounded-3xl transition-transform duration-500 hover:scale-105 hover:-translate-y-2' src={Opa} alt="" />
           </li>
 

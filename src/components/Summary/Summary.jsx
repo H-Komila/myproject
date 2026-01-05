@@ -33,17 +33,17 @@ const Summary = () => {
             </div>
           </li>
 
-          {/* VIDEO CARD */}
+        
           <li
             className="w-full lg:w-1/2 h-[260px] sm:h-[350px] lg:h-[500px]
             rounded-2xl bg-cover bg-center relative group overflow-hidden
             animate-fade-in-left"
             style={{ backgroundImage: `url(${Qqqq})` }}
           >
-            {/* Overlay */}
+           
             <div className="absolute inset-0 bg-black/30"></div>
 
-            {/* Play */}
+            
             <div
               className="absolute bottom-6 left-6 flex items-center gap-4 z-10
               transition-all duration-500 group-hover:translate-y-[-6px]"
