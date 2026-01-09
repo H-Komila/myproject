@@ -7,7 +7,7 @@ const Figcaption = () => {
       <div className="container max-w-[1200px] mx-auto px-4">
         <ul className="flex flex-col lg:flex-row items-center rounded-2xl overflow-hidden shadow-lg">
 
-          {/* IMAGE */}
+       
           <li className="w-full lg:w-1/2 group overflow-hidden">
             <img
               src={Image}
@@ -17,7 +17,7 @@ const Figcaption = () => {
             />
           </li>
 
-          {/* CONTENT */}
+       
           <li
             className="w-full lg:w-1/2 bg-orange-500 p-8 md:p-12 lg:p-16 
             h-auto lg:h-[500px] flex flex-col justify-center

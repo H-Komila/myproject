@@ -1,8 +1,13 @@
 import React from 'react'
+import Human from '../Human/Human'
+import Summary from '../Summary/Summary'
 
 const Services = () => {
   return (
-    <div>Services</div>
+    <>
+    <Human/>
+    <Summary/>
+    </>
   )
 }
 
